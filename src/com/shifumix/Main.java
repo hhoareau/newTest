@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Main {
 
-    List<String> lg=new ArrayList<String>();
+    static List<String> lg=new ArrayList<String>();
 
     public static void log(String s){
         lg.add(System.currentTimeMillis()+":"+s);
